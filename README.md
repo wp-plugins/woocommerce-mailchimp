@@ -53,7 +53,7 @@ Thanks in advance for your help on any translation efforts!
 1. Upload or extract the `woocommerce-mailchimp` folder to your site's `/wp-content/plugins/` directory. You can also use the *Add new* option found in the *Plugins* menu in WordPress.  
 2. Enable the plugin from the *Plugins* menu in WordPress.
 
-== Usage ==
+### Usage ###
 
 1. Go to WooCommerce > Settings > Integration > MailChimp
 2. First, enable the plugin and set your MailChimp API Key and hit save.
