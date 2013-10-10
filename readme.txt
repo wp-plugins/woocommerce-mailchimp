@@ -6,7 +6,7 @@ Tested up to: 3.6.1
 Stable tag: 1.0
 License: GPLv3
 
-WooCommerce MailChimp provides simple MailChimp integration for WooCommerce.
+Simple MailChimp integration for WooCommerce.
 
 == Description ==
 
