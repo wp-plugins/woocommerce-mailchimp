@@ -67,5 +67,5 @@ Thanks in advance for your help on any translation efforts!
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0 =
 * This is the first public release.
