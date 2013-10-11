@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce MailChimp
 Plugin URI: http://anderly.com/woocommerce-mailchimp
 Description: WooCommerce MailChimp provides simple MailChimp integration for WooCommerce.
-Version: 1.0
+Version: 1.0.1
 Author: Adam Anderly
 Author URI: http://anderly.com
 
@@ -29,9 +29,20 @@ function woocommerce_mailchimp_init() {
  	* Add the Integration to WooCommerce
  	**/
 	function add_mailchimp_integration($methods) {
-    $methods[] = 'SS_WC_Integration_MailChimp';
+    	$methods[] = 'SS_WC_Integration_MailChimp';
 		return $methods;
 	}
 
 	add_filter('woocommerce_integrations', 'add_mailchimp_integration' );
+	
+	function action_links( $links ) {
+
+		$plugin_links = array(
+			'<a href="' . admin_url( 'admin.php?page=woocommerce_settings&tab=integration&section=mailchimp' ) . '">' . __( 'Settings', 'ss_wc_mailchimp' ) . '</a>',
+		);
+
+		return array_merge( $plugin_links, $links );
+	}
+	// Add the "Settings" links on the Plugins administration screen
+	add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'action_links' );
 }
