@@ -68,7 +68,7 @@ Thanks in advance for your help on any translation efforts!
 == Changelog ==
 
 = 1.0.1 =
-* Added "Settings" links on the Plugins administration screen
+* Added "Settings" link on the Plugins administration screen
 
 = 1.0 =
 * This is the first public release.
