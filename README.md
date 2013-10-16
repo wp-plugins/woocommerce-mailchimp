@@ -1,5 +1,5 @@
 === WooCommerce MailChimp ===
-Contributors: anderly
+Contributors: anderly, saintsystems
 Tags: woocommerce, mailchimp
 Requires at least: 3.6
 Tested up to: 3.6.1

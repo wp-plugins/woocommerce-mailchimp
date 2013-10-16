@@ -3,11 +3,11 @@
 Plugin Name: WooCommerce MailChimp
 Plugin URI: http://anderly.com/woocommerce-mailchimp
 Description: WooCommerce MailChimp provides simple MailChimp integration for WooCommerce.
-Version: 1.0.1
-Author: Adam Anderly
-Author URI: http://anderly.com
+Version: 1.0.2
+Author: Saint Systems
+Author URI: http://saintsystems.com
 
-	Copyright: © 2013 Adam Anderly
+	Copyright: © 2013 Saint Systems
 	License: GNU General Public License v3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
