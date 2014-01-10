@@ -3,7 +3,7 @@ Contributors: anderly, saintsystems
 Tags: woocommerce, mailchimp
 Requires at least: 3.6
 Tested up to: 3.8
-Stable tag: 1.1.3
+Stable tag: 1.2
 License: GPLv3
 
 Simple MailChimp integration for WooCommerce.
@@ -66,6 +66,12 @@ Thanks in advance for your help on any translation efforts!
 1. WooCommerce MailChimp options screen.
 
 == Changelog ==
+
+= 1.2 =
+* Added new setting to control whether or not the double opt-in checkbox is checked/unchecked by default on the checkout page.
+* Added new setting to control display location of the double opt-in checkbox (under billing info or order info)
+* Small modification to append to MailChimp interest groups for existing users so that group settings are not lost for users who were already subscribed.
+* Preparations for i18n (Internationalization) support. Several users have already asked and offered to translate the plugin into other languages. We had always planned on that, but now are making that a reality.
 
 = 1.1.3 =
 * Minor action hook change since order meta (needed for MailChimp API call) is not yet available on 'woocommerce_new_order' hook

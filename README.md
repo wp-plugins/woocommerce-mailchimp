@@ -53,6 +53,9 @@ Thanks in advance for your help on any translation efforts!
 
 ### Changelog
 
+##### 1.2
+* Minor action hook change since order meta (needed for MailChimp API call) is not yet available on 'woocommerce_new_order' hook
+
 ##### 1.1.3
 * Minor action hook change since order meta (needed for MailChimp API call) is not yet available on 'woocommerce_new_order' hook
 
