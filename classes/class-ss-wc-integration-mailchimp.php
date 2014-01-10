@@ -372,10 +372,10 @@ class SS_WC_Integration_MailChimp extends WC_Integration {
 		$retval = $api->listSubscribe( $listid, $email, $vars, $email_type, $double_optin, $update_existing, $replace_interests, $send_welcome );
 
 		if ( $api->errorCode && $api->errorCode != 214 ) {
-			do_action( 'wc_mailchimp_subscribe', $email );
+			do_action( 'ss_wc_mailchimp_subscribed', $email );
 
 			// Email admin
-			wp_mail( get_option('admin_email'), __( 'Email subscription failed (Mailchimp)', 'ss_wc_mailchimp' ), '(' . $api->errorCode . ') ' . $api->errorMessage );
+			wp_mail( get_option('admin_email'), __( 'WooCommerce MailChimp subscription failed', 'ss_wc_mailchimp' ), '(' . $api->errorCode . ') ' . $api->errorMessage );
 		}
 	}
 

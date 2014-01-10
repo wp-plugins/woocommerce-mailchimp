@@ -6,15 +6,13 @@ Tested up to: 3.8
 Stable tag: 1.2
 License: GPLv3
 
-Simple MailChimp integration for WooCommerce.
+Simple and flexible MailChimp integration for WooCommerce.
 
 == Description ==
 
-WooCommerce MailChimp provides simple MailChimp integration for WooCommerce.
+WooCommerce MailChimp provides simple and flexible MailChimp integration for WooCommerce.
 
-Easily add customers to a designated MailChimp list and, optionally, MailChimp interest groups upon order creation or order completion.
-
-Double opt-in option for anti-spam compliance.
+Automatically subscribe customers to a designated MailChimp list and, optionally, MailChimp interest groups upon order creation or order completion. This can be done quietly or based on the user's consent with several opt-in settings that support international opt-in laws.
 
 ### Features ###
 
@@ -26,6 +24,14 @@ Double opt-in option for anti-spam compliance.
 #### Works with MailChimp Interest Groups ####
 
 - Set one or more interest groups to add users to based on the selected MailChimp list.
+
+#### Opt-In Settings
+
+- MailChimp double opt-in support (control whether a double opt-in email is sent to the customer)
+- Optionally, display an opt-in checkbox on the checkout page (this is required in some countries)
+- Control the label displayed next to the opt-in checkbox
+- Control whether or not the opt-in checkbox is checked or unchecked by default
+- Control the placement of the opt-in checkbox on the checkout page (under billing info or order info)
 
 #### Multisite ####
 
