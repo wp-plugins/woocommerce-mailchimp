@@ -13,7 +13,7 @@ Automatically subscribe customers to a designated MailChimp list and, optionally
 
 #### Works with MailChimp Interest Groups
 
-- Set one or more interest groups to add users to based on the selected MailChimp list.
+- Set one or more interest groups to add users to based on the selected MailChimp list. The title of the groups needs to be entered as the Group Name.
 
 #### Opt-In Settings
 
@@ -51,7 +51,7 @@ If you need help, have problems, want to leave feedback or want to provide const
 
 ### Installation
 
-1. Upload or extract the `woocommerce-mailchimp` folder to your site's `/wp-content/plugins/` directory. You can also use the *Add new* option found in the *Plugins* menu in WordPress.  
+1. Upload or extract the `woocommerce-mailchimp` folder to your site's `/wp-content/plugins/` directory. You can also use the *Add new* option found in the *Plugins* menu in WordPress.
 2. Enable the plugin from the *Plugins* menu in WordPress.
 
 ### Usage
@@ -63,6 +63,9 @@ If you need help, have problems, want to leave feedback or want to provide const
 5. That's it, now customers who purchase products from your WooCommerce store will automatically be subscribed to the selected list (and optional interest groups) in MailChimp!
 
 ### Changelog
+
+#### 1.2.6
+* Added additional debug logging when WP_DEBUG is enabled
 
 #### 1.2.5
 * Bug fix for subscribe when not using opt-in display field
